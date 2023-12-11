@@ -3,14 +3,14 @@ div#logo {
   width: 100%;
   border-bottom: 1px solid black;
   vertical-align: top;
-  margin-top: 1%;
+  margin-top: 0.5%;
   margin-bottom: 0.5%;
-  height: 40px;
+  height: 30px;
   line-height: 190%;
   text-indent: 2%;
   margin-left: none;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 28px;
+  font-size: 13px;
 }
 
 div#menu {
@@ -20,6 +20,7 @@ div#menu {
   display: inline-block; 
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
+  font-size: 13px;
 }
 
 div#main {
@@ -33,6 +34,7 @@ div#main {
   margin-right: 2%; 
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
+  font-size: 15px;
 }
 
 ul.menu {
@@ -182,15 +184,6 @@ ul.menu li.active a {
   }
 }
 
-@media only screen and (min-width: 900px) {
-  #main img {}
-}
-
-.items-leading > div,
-.items-row > div {
-  margin-bottom: 100px;
-}
-
 body.item-149 .items-row div.span12 {
   margin-bottom: 0px;
 }
@@ -216,4 +209,9 @@ body.item-149 .items-row {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.container{
+width: 700px;
+height: 400px;
 }
