@@ -5,19 +5,27 @@
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namika Hamahashi</title>
-    <link rel="shortcut icon" href="file:///Users/namikahamahashi/Desktop/graduate_application/website/favicon/favicon.png" type="image/x-icon" sizes="16x16">
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon" sizes="16x16">
 
     <style>
-        #menu {
-            margin-left: 35px; 
-        }
+ #menu {
+  margin-left: 35px; 
+ }
+
+  .global-studies-link {
+  text-decoration: underline !important;
+  color: black !important;
+}
+
     </style>
 
+
+
 <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="file:///Users/namikahamahashi/Desktop/graduate_application/website/css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
 <!-- JAVA -->
-  <script src="file:///Users/namikahamahashi/Desktop/graduate_application/website/javascript/script.js"></script>
+  <script src="javascript/script.js"></script>
      
     <script type="text/javascript">
       $(document).ready(function() {
@@ -50,7 +58,7 @@
 <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
 <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
 <link href="/favicon/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-<link rel="stylesheet" type="text/css" href="file:///Users/namikahamahashi/Desktop/graduate_application/website/css/main.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <script src="/media/jui/js/jquery.min.js?e1ac4d4556880d96df8da071523f82ef" type="text/javascript"></script>
 <script src="/media/jui/js/jquery-noconflict.js?e1ac4d4556880d96df8da071523f82ef" type="text/javascript"></script>
 <script src="/media/jui/js/jquery-migrate.min.js?e1ac4d4556880d96df8da071523f82ef" type="text/javascript"></script>
@@ -72,7 +80,7 @@ jQuery(window).on('load',  function() {
   <header>
     <div id="logo">
         <div class="custom">
-            <a href="/">Namika Hamahashi</a>
+            <a href="index.html">Namika Hamahashi</a>
         </div>
     </div>
     </header>
@@ -83,9 +91,9 @@ jQuery(window).on('load',  function() {
             <!-- Menu Module 1 -->
             <div class="menumodule" id="menu1">
                 <ul class="nav menu mod-list">
-                    <li class="item-149"><a href="file:///Users/namikahamahashi/Desktop/graduate_application/website/index.html">all</a></li>
-                    <li class="item-136"><a href="file:///Users/namikahamahashi/Desktop/graduate_application/website/about.html">about</a></li>
-                    <li class="item-137"><a href="file:///Users/namikahamahashi/Desktop/graduate_application/website/contact.html">contact</a></li>
+                    <li class="item-149"><a href="index.html">all</a></li>
+                    <li class="item-136"><a href="about.html">about</a></li>
+                    <li class="item-137"><a href="contact.html">contact</a></li>
                 </ul>
             </div>
         </div>  
@@ -100,13 +108,15 @@ jQuery(window).on('load',  function() {
         <div class="items-row cols-1 row-0 row-fluid">
             <div class="item column-1 span12" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
                 <div class="spacer"></div>
-            </div>
 
-  <p> Namika is a recent graduate from International Christian University in Tokyo with a major in Global Studies. Her topics of interest involve around Communication, Public Policy, Graphic Design, and Photography. </p>
+                <p> Namika is a recent graduate from International Christian University in Tokyo with a major in <a href="https://www.icu.ac.jp/en/academics/undergraduate/major/major29/" class="global-studies-link">Global Studies</a>. Her topics of interest involve around Communication, Public Policy, Graphic Design, and Photography. </p>
+                <img src="/blogpost/Polaroid3.png" alt="Polaroid3" style="width: 600px; max-width: 100%; height: auto; margin: 0; float: left;" />
+        </div>
+            </div>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2023 Namika Hamahashi. All rights reserved.</p>
+      <p style="text-align: left; margin-top: 700px;">&copy; 2023 Namika Hamahashi. All rights reserved.</p>
     </footer>
 
 </body>
