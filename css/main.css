@@ -48,6 +48,10 @@ ul.menu {
   display: inline-block;
 }
 
+footer {
+  margin-left: 35px;
+}
+
 /*FONTS*/
 body, table, td, div {
   font-size: 15px;
@@ -215,4 +219,3 @@ body.item-149 .items-row {
 width: 700px;
 height: 400px;
 }
-
