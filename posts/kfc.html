@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namika Hamahashi</title>
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon" sizes="16x16">
+
+    <style>
+        #menu {
+            margin-left: 35px; 
+        }
+    </style>
+
+<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+<!-- JAVA -->
+  <script src="javascript/script.js"></script>
+     
+    <script type="text/javascript">
+      $(document).ready(function() {
+  
+        $("<select id='mobilenav' />").appendTo("#menu");
+  
+        $("<option />", {
+           "selected": "selected",
+           "value"   : "",
+           "text"    : "Go to..."
+        }).appendTo("#menu select");
+  
+        $("ul.nav a").each(function() {
+         var el = $(this);
+         $("<option />", {
+             "value"   : el.attr("href"),
+             "text"    : el.text()
+         }).appendTo("#menu select");
+        });
+  
+        $("#menu select").change(function() {
+            window.location = $(this).find("option:selected").val();
+          });
+  
+      });
+    </script>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>home</title>
+<link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+<link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+<link href="/favicon/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="/media/jui/js/jquery.min.js?e1ac4d4556880d96df8da071523f82ef" type="text/javascript"></script>
+<script src="/media/jui/js/jquery-noconflict.js?e1ac4d4556880d96df8da071523f82ef" type="text/javascript"></script>
+<script src="/media/jui/js/jquery-migrate.min.js?e1ac4d4556880d96df8da071523f82ef" type="text/javascript"></script>
+<script src="/media/system/js/caption.js?e1ac4d4556880d96df8da071523f82ef" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(window).on('load',  function() {
+      new JCaption('img.caption');
+    });
+</script>
+
+<!--[if lt IE 9]>
+  <script src="/media/jui/js/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+    <!-- Main Content Section -->
+    <div class="clear"></div>
+    <div id="main" style="width: 1200px; max-width: 100%; margin-left: 2%; text-align: left;">
+    
+      <p style="text-align: left; margin-top: 50px;">LAYERS AND MATERIALS</p>
+      <p style="text-align: left; margin-top: 10px;">cotton and tulle; 2019-2020</p>
+
+      <div class="image-container" style="display: flex;">
+
+        <!-- First Image -->
+        <div style="width: 100%; ">
+            <p style="text-align: left;">
+                    <img src="/blogpost/iphone1.jpg" alt="Layers and Materials, 2019-2020" style="max-width: 100%; height: auto; margin: 0 auto; text-align: left;" />
+                </a>
+            </p>
+            <p style="text-align: left; margin-top: 10px; font-size: 10px;">Photo by Valeria Aristizabal</p>
+        </div>
+
+        <!-- Second Image -->
+        <div style="width: 100%; ">
+            <p style="text-align: left;">
+                    <img src="/blogpost/kfc.jpg" alt="Layers and Materials, 2019-2020" style="max-width: 100%; height: auto; margin: 0 auto; text-align: left; margin-left: 10%; margin-top: 50%;" />
+                </a>
+            </p>
+            <p style="text-align: left; margin-left: 10%; margin-top: 5px; font-size: 10px;">Photo by John Atanacio</p>
+        </div>
+    </div>
+
+
+   <!-- Separate Content Box for Last Three Images -->
+   <div id="last-three-container" style="width: 1600px; margin: 0 auto; margin-top: 10%;">
+
+    <!-- Last Three Images with Different Margins -->
+    <div class="image-container-last-three" style="display: flex;">
+
+      
+        <!-- Third Image -->
+        <div style="width: 45%; margin-top: 50px;">
+            <p style="text-align: left;">
+                    <img src="/blogpost/polaroid1.jpeg" alt="Layers and Materials, 2019-2020" style="max-width: 100%; height: auto; margin: 0 auto; text-align: left;" />
+                </a>
+            </p>
+        </div>
+
+        <!-- Fourth Image -->
+        <div style="width: 45%; margin-top: 50px; margin-left: 10px;">
+            <p style="text-align: left;">
+                    <img src="/blogpost/Polaroid3.png" alt="Layers and Materials, 2019-2020" style="max-width: 100%; height: auto; margin: 0 auto; text-align: left; margin-left: 5%; margin-top: 50%;" />
+                </a>
+            </p>
+        </div>
+
+        <!-- Fifth Image -->
+        <div style="width: 45%; margin-top: 50px; margin-left: 10px;">
+            <p style="text-align: left;">
+                    <img src="/blogpost/polaroid2.png" alt="Layers and Materials, 2019-2020" style="max-width: 100%; height: auto; margin: 0 auto; text-align: left; margin-left: 10%; margin-top: 20%;" />
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <p style="text-align: left; margin-top: 10px; font-size: 10px;">Photos by Valeria Aristizabal</p>
+</div>
+
+    <!-- Footer Section -->
+    <footer>
+      <p style="text-align: left; margin-top: 50px;">&copy; 2023 Namika Hamahashi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
