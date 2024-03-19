@@ -280,7 +280,9 @@ a:visited, a:link {
     height: auto !important;
   }
 
-  .image-container {
+  .image-container,
+  .image-container2,
+  .content-box {
     margin-left: 2%;
     width: 96%;
     align-items: center;
