@@ -283,7 +283,6 @@ a:visited, a:link {
   .image-container img,
   .image-container2 img,
   .content-box img {
-    margin-left: 2%;
     width: 100%;
     align-items: center;
   }
