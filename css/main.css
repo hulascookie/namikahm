@@ -280,11 +280,11 @@ a:visited, a:link {
     height: auto !important;
   }
 
-  .image-container,
-  .image-container2,
-  .content-box {
+  .image-container img,
+  .image-container2 img,
+  .content-box img {
     margin-left: 2%;
-    width: 96%;
+    width: 100%;
     align-items: center;
   }
 
