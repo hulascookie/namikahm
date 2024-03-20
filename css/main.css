@@ -347,15 +347,12 @@ body {
 table,
 td {
   border: 0;
+  text-align: left;
 }
   .row {
     display: flex;
     flex-wrap: wrap; 
   }
-
-table th {
-  text-align: left;
-}
   
   .menumodule {
     flex: 1 0 auto;
