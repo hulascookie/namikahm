@@ -347,7 +347,7 @@ body {
 table,
 td {
   border: 0;
-  text-align: left;
+  text-align: left !important;
 }
   .row {
     display: flex;
