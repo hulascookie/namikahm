@@ -261,23 +261,18 @@ a:visited, a:link {
 
 /*ADJUSTING TO SMALLER WINDOW*/
 @media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px){
   .image-container,
   .image-container2,
   .article-menumodule,
-  .content-box {
+  .content-box,
+  .image-box,
+  .footer-content {
     margin-left: 0.3%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-  }
-
-  .fixed-footer, 
-  .fixed-header,
-  .fixed-menu {
-    position: relative !important;
-    display: flex !important;
-    height: auto !important;
   }
 
   .image-container img,
