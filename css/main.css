@@ -226,12 +226,10 @@ a:visited, a:link {
   display: block;
   margin: 0;
   border: 0.8px solid transparent;
-  border-bottom: none; 
   position:relative
 }
 
 .article-page img {
-  border-bottom: none !important;
   max-width: 100%;
   height: auto;
 }
