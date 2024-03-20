@@ -266,13 +266,16 @@ a:visited, a:link {
   .image-container,
   .image-container2,
   .article-menumodule,
-  .content-box,
-  .footer-content {
+  .content-box {
     margin-left: 0.3%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+  }
+  
+  .footer-content {
+    margin-left: 2%;
   }
 
   .image-container img,
