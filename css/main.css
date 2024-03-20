@@ -262,6 +262,7 @@ a:visited, a:link {
 /*ADJUSTING TO SMALLER WINDOW*/
 @media only screen and (max-width: 850px){
 @media only screen and (max-width: 850px){
+  .menumodule,
   .image-container,
   .image-container2,
   .article-menumodule,
@@ -281,14 +282,9 @@ a:visited, a:link {
     align-items: center;
   }
 
-  .image-container2 {
-    margin-left: -4%; 
-    margin-top: 5%; 
-  }
-
+  .image-container2,
   .footer-content {
-    margin-left: -2%; 
-    margin-top: 5%;
+    margin-top: 5%; 
   }
 
   .image-box {
