@@ -402,7 +402,8 @@ nav#menu a[href]:hover
 }
 
 .footer-content a[href]:hover,
-.fixed-footer a[href]:hover
+.fixed-footer a[href]:hover,
+.custom-footer a[href]:hover
 {
   color: rgb(0, 71, 249);
 }
