@@ -295,6 +295,23 @@ a:visited, a:link {
   margin-right: 0 ;
 }
 
+.menumodule {
+  flex: 1 0 auto;
+  margin: 0 10px;
+  box-sizing: border-box;
+  margin-top: 3% !important;
+  word-wrap: break-word; 
+}
+
+.abstract {
+  width: 70%;
+  font-family: monospace;
+  font-size: 13px;
+  flex: 1 0 auto;
+  margin: 0 10px;
+  box-sizing: border-box;
+}
+
 /*MOVES*/
 body {
   overflow-x: hidden;
@@ -310,22 +327,6 @@ td {
     flex-wrap: wrap; 
   }
   
-  .menumodule {
-    flex: 1 0 auto;
-    margin: 0 10px;
-    box-sizing: border-box;
-    margin-top: 3% !important;
-  }
-
-    .abstract {
-    width: 70%;
-    font-family: monospace;
-    font-size: 13px;
-    flex: 1 0 auto;
-    margin: 0 10px;
-    box-sizing: border-box;
-  }
-
 /*ADJUSTING TO SMALLER WINDOW*/
 @media only screen and (max-width: 850px){
 @media only screen and (max-width: 850px){
