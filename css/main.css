@@ -26,6 +26,16 @@ p.green a {
   color: black;
 }
 
+.monospace {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.monospace_body {
+  font-family: monospace;
+  font-size: 14px;
+}
+
 /*LAYOUT*/
 * {
   box-sizing: border-box !important;
@@ -315,16 +325,6 @@ td {
     margin: 0 10px;
     box-sizing: border-box;
   }
-
-  .monospace {
-  font-family: monospace;
-  font-size: 13px;
-}
-
-  .monospace_body {
-  font-family: monospace;
-  font-size: 14px;
-}
 
 /*ADJUSTING TO SMALLER WINDOW*/
 @media only screen and (max-width: 850px){
