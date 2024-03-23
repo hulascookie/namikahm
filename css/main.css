@@ -327,35 +327,6 @@ td {
     flex-wrap: wrap; 
   }
 
-/*HOVER*/
-div#logo i:hover,
-.image-container a[href]:hover, 
-.article-menumodule a[href]:hover
-{color: rgb(0, 71, 249);}
-
-nav#menu a[href]:hover
-{
-  color: rgb(0, 71, 249);
-}
-
-.article-page a:hover{
-  border-color: rgb(0, 71, 249);
-}
-
-.footer-content a:hover,
-.fixed-footer a:hover
-{
-  color: rgb(0, 71, 249);
-}
-
-#fixed-menu table a:hover {
-  color: rgb(0, 71, 249); 
-}
-
-#fixed-menu a[href]:hover {
-  color: rgb(0, 71, 249);
-}
-
 /*ADJUSTING TO SMALLER WINDOW*/
 @media only screen and (max-width: 850px){
 @media only screen and (max-width: 850px){
@@ -414,3 +385,32 @@ nav#menu a[href]:hover
   }
 }
 
+/*HOVER*/
+div#logo i:hover,
+.image-container a[href]:hover, 
+.article-menumodule a[href]:hover,
+.content-box a[href]:hover
+{color: rgb(0, 71, 249);}
+
+nav#menu a[href]:hover
+{
+  color: rgb(0, 71, 249);
+}
+
+.article-page a[href]:hover{
+  border-color: rgb(0, 71, 249);
+}
+
+.footer-content a[href]:hover,
+.fixed-footer a[href]:hover
+{
+  color: rgb(0, 71, 249);
+}
+
+#fixed-menu table a[href]:hover {
+  color: rgb(0, 71, 249); 
+}
+
+#fixed-menu a[href]:hover {
+  color: rgb(0, 71, 249);
+}
