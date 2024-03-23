@@ -312,21 +312,6 @@ a:visited, a:link {
   box-sizing: border-box;
 }
 
-/*MOVES*/
-body {
-  overflow-x: hidden;
-}
-
-table,
-td {
-  border: 0;
-  text-align: left !important;
-}
-  .row {
-    display: flex;
-    flex-wrap: wrap; 
-  }
-
 /*HOVER*/
 div#logo i:hover,
 .image-container a[href]:hover, 
@@ -352,6 +337,21 @@ nav#menu a[href]:hover
 #fixed-menu a[href]:hover {
   color: rgb(0, 71, 249);
 }
+
+/*MOVES*/
+body {
+  overflow-x: hidden;
+}
+
+table,
+td {
+  border: 0;
+  text-align: left !important;
+}
+  .row {
+    display: flex;
+    flex-wrap: wrap; 
+  }
 
 /*ADJUSTING TO SMALLER WINDOW*/
 @media only screen and (max-width: 850px){
