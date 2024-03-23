@@ -296,12 +296,11 @@ a:visited, a:link {
 }
 
 .menumodule {
-  flex: 1 0 auto;
-  margin: 3% 10px 0; 
-  box-sizing: border-box;
+  display: flex;
+  margin-top: 3%;
   flex-direction: column;
   align-items: flex-start;
-  }
+}
 
 .abstract {
   width: 70%;
