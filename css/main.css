@@ -289,6 +289,10 @@ a:visited, a:link {
     margin-top: 5%; 
   }
 
+  .fixed-header {
+    position: relative;
+  }
+
   .image-box {
     width: 100%;
     margin-top: 5%; 
