@@ -1,3 +1,31 @@
+/*FONTS*/
+body, table, td, div {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  vertical-align: top;
+}
+
+p {
+  line-height: 1.2;
+}
+
+.smaller-font {
+  font-size: 12px;
+}
+
+a.mainlevel_green {
+  color: rgb(0, 71, 249);
+}
+
+p.green a {
+  color: rgb(0, 71, 249);
+}
+
+#main a {
+  color: black;
+}
+
 /*LAYOUT*/
 * {
   box-sizing: border-box !important;
@@ -383,33 +411,4 @@ td {
   .monospace_body {
   font-family: monospace;
   font-size: 14px;
-}
-
-
-/*FONTS*/
-body, table, td, div {
-  font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: left;
-  vertical-align: top;
-}
-
-p {
-  line-height: 1.2;
-}
-
-.smaller-font {
-  font-size: 12px;
-}
-
-a.mainlevel_green {
-  color: rgb(0, 71, 249);
-}
-
-p.green a {
-  color: rgb(0, 71, 249);
-}
-
-#main a {
-  color: black;
 }
