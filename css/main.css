@@ -317,25 +317,26 @@ div#logo i:hover,
 .image-container a[href]:hover, 
 .article-menumodule a[href]:hover,
 .content-box a[href]:hover
-{color: rgb(0, 71, 249);}
+{color: rgb(0, 71, 249)!important;
+}
 
 nav#menu a[href]:hover
 {
-  color: rgb(0, 71, 249);
+  color: rgb(0, 71, 249)!important;
 }
 
 .footer-content a[href]:hover,
 .fixed-footer a[href]:hover
 {
-  color: rgb(0, 71, 249);
+  color: rgb(0, 71, 249)!important;
 }
 
 #fixed-menu table a[href]:hover {
-  color: rgb(0, 71, 249); 
+  color: rgb(0, 71, 249)!important; 
 }
 
 #fixed-menu a[href]:hover {
-  color: rgb(0, 71, 249);
+  color: rgb(0, 71, 249)!important;
 }
 
 /*MOVES*/
