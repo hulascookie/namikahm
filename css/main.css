@@ -397,13 +397,8 @@ nav#menu a[href]:hover
   color: rgb(0, 71, 249);
 }
 
-.article-page a[href]:hover{
-  border-color: rgb(0, 71, 249);
-}
-
 .footer-content a[href]:hover,
-.fixed-footer a[href]:hover,
-.custom-footer a[href]:hover
+.fixed-footer a[href]:hover
 {
   color: rgb(0, 71, 249);
 }
