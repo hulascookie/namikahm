@@ -1,4 +1,4 @@
-/*FONTS*/
+f/*FONTS*/
 body, table, td, div {
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
@@ -144,47 +144,6 @@ footer {
   margin: 0;
 }
 
-/*MOVES*/
-body {
-  overflow-x: hidden;
-}
-
-table,
-td {
-  border: 0;
-  text-align: left !important;
-}
-  .row {
-    display: flex;
-    flex-wrap: wrap; 
-  }
-  
-  .menumodule {
-    flex: 1 0 auto;
-    margin: 0 10px;
-    box-sizing: border-box;
-    margin-top: 3% !important;
-  }
-
-    .abstract {
-    width: 70%;
-    font-family: monospace;
-    font-size: 13px;
-    flex: 1 0 auto;
-    margin: 0 10px;
-    box-sizing: border-box;
-  }
-
-  .monospace {
-  font-family: monospace;
-  font-size: 13px;
-}
-
-  .monospace_body {
-  font-family: monospace;
-  font-size: 14px;
-}
-
 /*STYLE FOR PROJECT PAGES*/
 
 .fixed-header {
@@ -324,6 +283,47 @@ a:visited, a:link {
 
 .smaller-box:last-child {
   margin-right: 0 ;
+}
+
+/*MOVES*/
+body {
+  overflow-x: hidden;
+}
+
+table,
+td {
+  border: 0;
+  text-align: left !important;
+}
+  .row {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .menumodule {
+    flex: 1 0 auto;
+    margin: 0 10px;
+    box-sizing: border-box;
+    margin-top: 3% !important;
+  }
+
+    .abstract {
+    width: 70%;
+    font-family: monospace;
+    font-size: 13px;
+    flex: 1 0 auto;
+    margin: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .monospace {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+  .monospace_body {
+  font-family: monospace;
+  font-size: 14px;
 }
 
 /*ADJUSTING TO SMALLER WINDOW*/
