@@ -26,47 +26,6 @@ p.green a {
   color: black;
 }
 
-/*MOVES*/
-body {
-  overflow-x: hidden;
-}
-
-table,
-td {
-  border: 0;
-  text-align: left !important;
-}
-  .row {
-    display: flex;
-    flex-wrap: wrap; 
-  }
-  
-  .menumodule {
-    flex: 1 0 auto;
-    margin: 0 10px;
-    box-sizing: border-box;
-    margin-top: 3%;
-  }
-
-    .abstract {
-    width: 70%;
-    font-family: monospace;
-    font-size: 13px;
-    flex: 1 0 auto;
-    margin: 0 10px;
-    box-sizing: border-box;
-  }
-
-  .monospace {
-  font-family: monospace;
-  font-size: 13px;
-}
-
-  .monospace_body {
-  font-family: monospace;
-  font-size: 14px;
-}
-
 /*LAYOUT*/
 * {
   box-sizing: border-box !important;
@@ -183,6 +142,47 @@ footer {
 
 .left-section p {
   margin: 0;
+}
+
+/*MOVES*/
+body {
+  overflow-x: hidden;
+}
+
+table,
+td {
+  border: 0;
+  text-align: left !important;
+}
+  .row {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .menumodule {
+    flex: 1 0 auto;
+    margin: 0 10px;
+    box-sizing: border-box;
+    margin-top: 3%;
+  }
+
+    .abstract {
+    width: 70%;
+    font-family: monospace;
+    font-size: 13px;
+    flex: 1 0 auto;
+    margin: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .monospace {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+  .monospace_body {
+  font-family: monospace;
+  font-size: 14px;
 }
 
 /*STYLE FOR PROJECT PAGES*/
