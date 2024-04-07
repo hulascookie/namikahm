@@ -36,6 +36,11 @@ p.green a {
   font-size: 14px;
 }
 
+.monospace2 {
+  font-family: monospace;
+  font-size: 18px;
+}
+
 /*LAYOUT*/
 * {
   box-sizing: border-box !important;
