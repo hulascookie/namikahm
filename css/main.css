@@ -235,6 +235,22 @@ nav#fixed-menu {
   flex-basis: 30%;
 }
 
+.content-box2 {
+  flex: 1;
+  box-sizing: border-box;
+  margin-right: 5%;
+}
+
+.content-box2:first-child {
+  flex-basis: 35%;
+  margin-right: 15%;
+}
+
+.content-box2:last-child {
+  flex-basis: 35%;
+  margin-top: 40%;
+}
+
 .content div {
   margin-bottom: 3%; /* Adjust the spacing between the text and the image */
 }
