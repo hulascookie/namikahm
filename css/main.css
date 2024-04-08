@@ -337,7 +337,8 @@ a:visited, a:link {
 div#logo i:hover,
 .image-container a[href]:hover, 
 .article-menumodule a[href]:hover,
-.content-box a[href]:hover
+.content-box a[href]:hover,
+.content-box2 a[href]:hover
 {color: rgb(0, 71, 249)!important;
 }
 
