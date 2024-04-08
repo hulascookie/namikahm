@@ -383,7 +383,8 @@ td {
   .image-container,
   .image-container2,
   .article-menumodule,
-  .content-box {
+  .content-box,
+  .content-box2 {
     margin-left: 0.3%;
     display: flex;
     flex-direction: column;
@@ -398,7 +399,8 @@ td {
 
   .image-container img,
   .image-container2 img,
-  .content-box img {
+  .content-box img,
+  .content-box2 img {
     width: 100%;
     align-items: center;
   }
@@ -417,7 +419,8 @@ td {
     margin-top: 5%; 
   }
 
-  .content-box {
+  .content-box,
+  .content-box2 {
     flex-basis: 90%;
   }
 
