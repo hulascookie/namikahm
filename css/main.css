@@ -393,6 +393,7 @@ td {
   .content-box2,
   .content-box {
     margin-left: 0.3%;
+    margin-right: 0.3%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
