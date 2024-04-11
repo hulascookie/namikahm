@@ -327,7 +327,6 @@ a:visited, a:link {
 .menumodule {
   width: 100%;
   display: flex;
-  margin-top: 3%;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -391,8 +390,7 @@ td {
   .image-container,
   .image-container2,
   .article-menumodule,
-  .article-menumodule2,
-  .content-box {
+  .article-menumodule2 {
     margin-left: 0.3% !important;
     display: flex;
     flex-direction: column;
@@ -402,7 +400,8 @@ td {
     margin-right: 0.3% !important;
   }
 
-  .content-box2 {
+  .content-box2,
+  .content-box {
     flex: 1;
     box-sizing: border-box;
     margin-right: 0;
@@ -437,11 +436,6 @@ td {
   .image-box {
     width: 100%;
     margin-top: 5%; 
-  }
-
-  .content-box,
-  .content-box2 {
-    flex-basis: 100%;
   }
 
   .image-box img {
