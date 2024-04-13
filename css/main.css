@@ -237,6 +237,10 @@ nav#fixed-menu {
   flex-basis: 30%;
 }
 
+.content-box img {
+  max-width: 20%;
+}
+
 .content-box2 {
   flex: 1;
   box-sizing: border-box;
