@@ -78,7 +78,7 @@ nav#menu {
   overflow: hidden;
   flex-wrap: wrap;
   background-color: rgba(255, 255, 255, 0); 
-  width: 96%;
+  width: 100%;
 }
 
 #menu .row {
@@ -389,6 +389,15 @@ td {
     margin-right: 0.3% !important;
   }
 
+
+  .sidebar {
+    width: 15%;
+  }
+
+  .content {
+    margin-left: 35%; /* Adjusted to accommodate the sidebar width */
+  }
+
   .content-box2,
   .content-box {
     flex: 1;
@@ -402,7 +411,7 @@ td {
   }
   
   .footer-content {
-    margin-left: 2%;
+    margin-left: 25%;
   }
 
   .image-container img,
