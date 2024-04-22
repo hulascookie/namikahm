@@ -46,6 +46,20 @@ p.green a {
   box-sizing: border-box !important;
 }
 
+.sidebar {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  text-align: left;
+  left: 0;
+  top: 5%;
+  background-color: #ffffff;
+}
+
+.content {
+  margin-left: 20%; /* Adjusted to accommodate the sidebar width */
+}
+
 div#logo {
   width: 80%;
   vertical-align: top;
@@ -81,19 +95,16 @@ img {
 
 .image-container {
   position: relative;
-  display: flex;
-  width: 100%;
+  width: 50%;
   left: 0;
   flex-wrap: wrap; 
   justify-content: flex-start;
-  margin-left: 2%;
-  margin-top: 2%; 
+  margin-top: 10%; 
   z-index: 1; 
 }
 
 .image-container2 {
   position: relative;
-  display: flex;
   width: 100%;
   left: 0;
   flex-wrap: wrap; 
@@ -139,10 +150,10 @@ footer {
   position: relative;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 20%;
   background-color: rgba(255, 255, 255, 0);
-  margin-left: 0; 
   margin-top: 15%;
+  text-align: left;
 }
 
 .footer-content {
@@ -150,14 +161,7 @@ footer {
   justify-content: space-between;
   align-items: flex-end; 
   margin-bottom: 2%;
-}
-
-.left-section {
-  margin: 0;
-}
-
-.left-section p {
-  margin: 0;
+  margin-left: 20%;
 }
 
 /*STYLE FOR PROJECT PAGES*/
@@ -219,7 +223,7 @@ nav#fixed-menu {
   flex-wrap: wrap; 
   justify-content: space-between;
   margin-left: 0;
-  margin-top: 3%;
+  margin-top: 10%;
   z-index: 1; 
 }
 
@@ -227,14 +231,6 @@ nav#fixed-menu {
   flex: 1;
   box-sizing: border-box;
   margin-right: 5%;
-}
-
-.content-box:first-child {
-  flex-basis: 60%;
-}
-
-.content-box:last-child {
-  flex-basis: 30%;
 }
 
 .content-box img {
@@ -246,16 +242,6 @@ nav#fixed-menu {
   box-sizing: border-box;
   margin-right: 5%;
   flex-basis: 100%;
-}
-
-.content-box2:first-child {
-  flex-basis: 35%;
-  margin-right: 15%;
-}
-
-.content-box2:last-child {
-  flex-basis: 35%;
-  margin-top: 40%;
 }
 
 .content-box2 img {
@@ -281,6 +267,7 @@ a:visited, a:link {
 
 
 .article-page {
+  text-align: left;
   margin-right: 0;
   position: relative;
   z-index: 2000;
@@ -290,14 +277,12 @@ a:visited, a:link {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  text-align: right;
 }
 
 .article-page a {
   display: block;
-  margin: 0;
   border: 0.8px solid transparent;
-  position:relative
+  position: relative
 }
 
 .article-page img {
