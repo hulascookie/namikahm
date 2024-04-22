@@ -391,11 +391,11 @@ td {
 
 
   .sidebar {
-    width: 15%;
+    width: 20%;
   }
 
   .content {
-    margin-left: 35%; /* Adjusted to accommodate the sidebar width */
+    margin-left: 40%; /* Adjusted to accommodate the sidebar width */
   }
 
   .content-box2,
@@ -411,7 +411,7 @@ td {
   }
   
   .footer-content {
-    margin-left: 25%;
+    margin-left: 50%;
   }
 
   .image-container img,
