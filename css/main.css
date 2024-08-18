@@ -27,6 +27,11 @@ p.green a {
   font-size: 20px;
 }
 
+.text_small {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 10px;
+}
+
 /*LAYOUT*/
 * {
   box-sizing: border-box !important;
@@ -240,7 +245,7 @@ td {
   }
 
   .content {
-    margin-left: 45%; /* Adjusted to accommodate the sidebar width */
+    margin-left: 50%; /* Adjusted to accommodate the sidebar width */
   }
 
   .content-box {
