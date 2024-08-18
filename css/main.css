@@ -5,14 +5,14 @@ body, table, td, div {
   vertical-align: top;
 }
 
-.text {
-  font-family: 'Arial', Helvetica, sans-serif;
-  font-size: 20px;
-}
-
 .small {
   font-family: 'Arial', Helvetica, sans-serif;
   font-size: 10px !important;
+}
+
+.text {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 p {
