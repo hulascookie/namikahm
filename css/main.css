@@ -24,12 +24,12 @@ p.green a {
 
 .text {
   font-family: 'Arial', Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .small {
   font-family: 'Arial', Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 10px !important;
 }
 
 /*LAYOUT*/
