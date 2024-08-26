@@ -234,6 +234,15 @@ td {
     margin-right: 0.3% !important;
   }
 
+  .small {
+  flex-wrap: wrap;
+  font-size: 10px !important;
+}
+
+.text {
+  flex-wrap: wrap;
+}
+
   .sidebar {
     width: 20%;
   }
