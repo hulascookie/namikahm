@@ -223,18 +223,17 @@ td {
 
 /*ADJUSTING TO SMALLER WINDOW*/
 @media only screen and (max-width: 1000px){
-.image-container {
-    margin-left: 0.3% !important;
+  .image-container {
+    margin-left: 0%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
     margin-top: 10%;
-    margin-right: 0.3% !important;
   }
 
   .sidebar {
-    width: 15%;
+    width: 18%;
   }
 
   .text {
@@ -253,7 +252,7 @@ td {
 
   .content-box {
     flex: 1;
-    background-color: #00000000;
+    background-color: #00000000; 
     box-sizing: border-box;
     margin-right: 0;
     flex-basis: 100%;
@@ -264,7 +263,7 @@ td {
   }
   
   .footer-content {
-    margin-left: 30%;
+    margin-left: 35%;
   }
 
   .image-container img,
