@@ -253,6 +253,7 @@ td {
 
   .content-box {
     flex: 1;
+    background-color: #00000000;
     box-sizing: border-box;
     margin-right: 0;
     flex-basis: 100%;
