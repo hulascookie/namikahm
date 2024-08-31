@@ -223,7 +223,7 @@ td {
 
 /*ADJUSTING TO SMALLER WINDOW*/
 @media only screen and (max-width: 1000px){
-  .image-container {
+.image-container {
     margin-left: 0.3% !important;
     display: flex;
     flex-direction: column;
@@ -234,11 +234,21 @@ td {
   }
 
   .sidebar {
-    width: 20%;
+    width: 15%;
+  }
+
+  .text {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 10px;
+  }
+  
+  .small {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 10px;
   }
 
   .content {
-    margin-left: 40%; /* Adjusted to accommodate the sidebar width */
+    margin-left: 30%; /* Adjusted to accommodate the sidebar width */
   }
 
   .content-box {
@@ -248,12 +258,12 @@ td {
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 0.3% !important;
-    margin-right: 0.3% !important;
+    margin-left: 0% !important;
+    margin-right: 5% !important;
   }
   
   .footer-content {
-    margin-left: 50%;
+    margin-left: 30%;
   }
 
   .image-container img,
