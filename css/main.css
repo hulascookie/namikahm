@@ -183,7 +183,6 @@ a:visited, a:link {
   z-index: 2000;
   max-width: 100%;
   width: 100%;
-  justify-content: center; 
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
